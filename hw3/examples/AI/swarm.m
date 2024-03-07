@@ -47,10 +47,10 @@ dist = distances_from_others(x, N);
     % a) swarm.m is renamed
     % b) you download it to a different file folder on your local machine
 % 0. Change file name to swarm.m 
-% 1. >> run('/Users/susanwangqian/Desktop/sp24_aihw/robotarium/init')
-% 2. >> run('/Users/susanwangqian/Desktop/sp24_aihw/robotarium/examples/AI/assignment_3.m')
+% 1. >> run('/Users/susanwangqian/Desktop/sp24_aihw/hw3/init')
+% 2. >> run('/Users/susanwangqian/Desktop/sp24_aihw/hw3/examples/AI/assignment_3.m')
 
-% repulsion matrix; repulse(i,j)=1 is when j is in i's zone of repulsion
+% repulsion matrix = 1 is when j is in i's zone of repulsion
 repulsion = zeros(N, N);
 % orientation matrix;
 orientation = zeros(N, N);
